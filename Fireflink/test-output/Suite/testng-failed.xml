@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="runwithCMD.Tc_004_TourTest">
+        <methods>
+          <include name="TamilnaduTour"/>
+        </methods>
+      </class> <!-- runwithCMD.Tc_004_TourTest -->
+      <class name="runwithCMD.Tc_003_TourTest">
+        <methods>
+          <include name="GoaTour"/>
+        </methods>
+      </class> <!-- runwithCMD.Tc_003_TourTest -->
+      <class name="runwithCMD.Tc_002_TourTest">
+        <methods>
+          <include name="AndhraPradeshTour"/>
+        </methods>
+      </class> <!-- runwithCMD.Tc_002_TourTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
